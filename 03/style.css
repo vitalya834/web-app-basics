@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.form-fcg {
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    margin-left: 8px;
+}
