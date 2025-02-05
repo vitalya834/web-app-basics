@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Color Mixer</h1>
-        <p id="color-code">rgb(255, 0, 0)</p>
+    <div class="controls">
         <div class="sliders">
-            <div>
-                <label for="red">Red</label>
-                <input type="range" id="red" min="0" max="255" value="255">
+            <div class="slider">
+                <label for="red">r</label>
+                <input id="red" type="range" min="0" max="255" value="128">
             </div>
-            <div>
-                <label for="green">Green</label>
-                <input type="range" id="green" min="0" max="255" value="0">
+            <div class="slider">
+                <label for="green">g</label>
+                <input id="green" type="range" min="0" max="255" value="128">
             </div>
-            <div>
-                <label for="blue">Blue</label>
-                <input type="range" id="blue" min="0" max="255" value="0">
+            <div class="slider">
+                <label for="blue">b</label>
+                <input id="blue" type="range" min="0" max="255" value="128">
             </div>
+        </div>
+        <div class="button-section">
+            <p id="color-code">#808080</p>
+            <button id="randomColorBtn">Random Color</button>
         </div>
     </div>
     <script src="script.js"></script>
